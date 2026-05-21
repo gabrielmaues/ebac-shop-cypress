@@ -65,19 +65,19 @@ npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generato
 
 ### Modo Interativo (Cypress UI)
 
-\`\`\`bash
+\`\`\`
 npm run cy:open
 \`\`\`
 
 ### Modo Headless (CI/CD)
 
-\`\`\`bash
+\`\`\`
 npm run cy:run
 \`\`\`
 
 ### Gerar Relatório HTML
 
-\`\`\`bash
+\`\`\`
 npm run cy:report
 \`\`\`
 
@@ -85,29 +85,33 @@ npm run cy:report
 
 ## Estrutura do Projeto
 
-\`\`\`
+```text
 ebac-shop-cypress/
 ├── cypress/
 │   ├── e2e/
 │   │   └── fluxo-compra.cy.js
+│   │
 │   ├── pages/
 │   │   ├── HomePage.js
 │   │   ├── ProductPage.js
 │   │   ├── CartPage.js
 │   │   ├── CheckoutPage.js
 │   │   └── OrderConfirmationPage.js
+│   │
 │   ├── fixtures/
 │   │   ├── cliente.json
 │   │   ├── mensagens.json
 │   │   └── produto.json
-│   ├── support/
-│   │   ├── commands.js
-│   │   └── e2e.js
-│   └── cypress.config.js
+│   │
+│   └── support/
+│       ├── commands.js
+│       └── e2e.js
+│
+├── cypress.config.js
 ├── .gitignore
 ├── package.json
 └── README.md
-\`\`\`
+```
 
 ---
 
