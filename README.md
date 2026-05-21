@@ -61,7 +61,7 @@ npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generato
 
 ---
 
-## ▶️ Executar Testes
+##  Executar Testes
 
 ### Modo Interativo (Cypress UI)
 
@@ -111,7 +111,7 @@ ebac-shop-cypress/
 
 ---
 
-## 🧪 Cenários de Teste
+##  Cenários de Teste
 
 ### CT-01: Fluxo Completo de Compra
 - Selecionar produto → Tamanho/Cor → Carrinho → Checkout → Confirmação
