@@ -1,0 +1,14 @@
+{
+  "name": "ebac-shop-tests",
+  "version": "1.0.0",
+  "description": "Desafio Técnico QA - Automação EBAC Shop",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:report": "cypress run --reporter cypress-mochawesome-reporter"
+  },
+  "devDependencies": {
+    "cypress": "^13.0.0",
+    "cypress-mochawesome-reporter": "^3.0.0"
+  }
+}
