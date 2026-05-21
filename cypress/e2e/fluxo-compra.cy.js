@@ -26,7 +26,7 @@ describe('Fluxo de Compra - EBAC Shop', () => {
         });
     });
 
-    it('CT-01: Deve completar o fluxo completo de compra com validação de pedido', () => {
+    it('CT-01: Fluxo Completo de Compra', () => {
         // 1. Selecionar o primeiro produto
         HomePage.selecionarProdutoPorIndice(0);
         ProductPage.validarPaginaProduto();
@@ -58,7 +58,7 @@ describe('Fluxo de Compra - EBAC Shop', () => {
         OrderConfirmationPage.validarPedidoCompleto(dadosProduto);
     });
 
-    it('CT-02: Deve validar quantidade máxima', () => {
+    it('CT-02: Deve validar quantidade máxima em estoque', () => {
         // 1. Selecionar o primeiro produto
         HomePage.selecionarProdutoPorIndice(0);
         ProductPage.validarPaginaProduto();
@@ -79,7 +79,7 @@ describe('Fluxo de Compra - EBAC Shop', () => {
         });
     });
 
-    it('CT-03: Deve validar quantidade mínima', () => {
+    it('CT-03: Deve validar quantidade mínima em estoque', () => {
         // 1. Selecionar o primeiro produto
         HomePage.selecionarProdutoPorIndice(0);
         ProductPage.validarPaginaProduto();
